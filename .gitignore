@@ -1,0 +1,18 @@
+# Ignore all
+*
+
+# Avoid ignoring directory
+!*/
+
+# Avoid ignoring some suffix
+!*.sh
+
+# Avoid ignoring default file
+!.dockerignore
+!.gitignore
+!Dockerfile
+!README.md
+!LICENSE
+
+# Ignore some directory
+.*/
